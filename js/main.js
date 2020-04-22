@@ -57,6 +57,7 @@ class Calculator {
 
   updateDisplay() {
     this.currentText.innerText = this.current;
+
     this.resultText.innerText = this.result;
   }
 }
