@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Gotham Rounded, Arial, Helvetica, sans-serif;
+  line-height: 1.3rem;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-height: 100vh;
+  background-color: #fff;
+  -ms-grid-columns: (100px)[4];
+      grid-template-columns: repeat(4, 100px);
+  -ms-grid-rows: minmax(120px, auto) (100px)[5];
+      grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.container .btn {
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 30%;
+  width: 90px;
+  height: 90px;
+  outline: none;
+  font-size: 30px;
+}
+
+.container .btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.container .btn.red {
+  color: red;
+}
+
+.container .btn.green {
+  color: green;
+}
+
+.container .output {
+  grid-column: 1/-1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.container .output .result {
+  color: #aaa;
+  font-size: 1.5rem;
+}
+
+.container .output .current {
+  color: #000;
+  font-size: 2.5rem;
+}
