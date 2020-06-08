@@ -2,7 +2,7 @@
 
 > A Simple Calculator with HTML5 - CSS3 and vanilla Javascript
 
-![](/screenshot.png)
+![](/assets/screenshot.png)
 
 ## Built With
 
