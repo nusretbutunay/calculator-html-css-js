@@ -2,7 +2,7 @@
 
 > A Simple Calculator with HTML5 - CSS3 and vanilla Javascript
 
-![](screenshot.png)
+![](/screenshot.png)
 
 ## Built With
 
@@ -39,7 +39,3 @@ Feel free to check [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-Project originally taken from The Odin Project
-Project inspired by Microverse Program
